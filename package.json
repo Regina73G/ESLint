@@ -4,7 +4,7 @@
   "description": "\"Browser based game\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Regina73G/npm_package/issues"
   },
-  "homepage": "https://github.com/Regina73G/npm_package#readme"
+  "homepage": "https://github.com/Regina73G/npm_package#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0"
+  }
 }
